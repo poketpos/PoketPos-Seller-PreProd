@@ -10,7 +10,7 @@
         "message_id": "7eb2d5d4-0e4b-462b-a712-7154bd741afb",
         "core_version": "1.2.0",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "timestamp": "2024-06-11T09:59:31.312Z",
+        "timestamp": "2024-06-19T06:34:26.312Z",
         "bap_id": "buyer-app-preprod-v2.ondc.org"
     },
     "message": {
@@ -46,10 +46,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-06-11T09:59:31.311Z",
-                                "end": "2024-06-11T10:29:31.311Z"
+                                "start": "2024-06-19T06:34:26.311Z",
+                                "end": "2024-06-19T06:34:26.311Z"
                             },
-                            "timestamp": "2024-06-11T09:59:31.311Z"
+                            "timestamp": "2024-06-19T06:34:26.311Z"
                         }
                     },
                     "end": {
@@ -79,10 +79,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-06-11T09:59:31.311Z",
-                                "end": "2024-06-11T10:29:31.311Z"
+                                "start": "2024-06-19T06:34:26.311Z",
+                                "end": "2024-06-19T06:34:26.311Z"
                             },
-                            "timestamp": "2024-06-11T09:59:31.311Z"
+                            "timestamp": "2024-06-19T06:34:26.311Z"
                         }
                     },
                     "id": "F1",
@@ -92,7 +92,7 @@
                         }
                     },
                     "type": "Delivery",
-                    "tracking": false,
+                    "tracking": true,
                     "@ondc/org/provider_name": "PoketPOS",
                     "tags": [
                         {
