@@ -10,7 +10,7 @@
     "message_id": "d2fdfadf-b50a-493a-a689-dae952b02bf9",
     "core_version": "1.2.0",
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-    "timestamp": "2024-06-19T04:58:53.839Z",
+    "timestamp": "2024-06-19T06:34:23.412Z",
     "bap_id": "buyer-app-preprod-v2.ondc.org"
   },
   "message": {
@@ -59,7 +59,7 @@
                   "end": "1900"
                 },
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.793Z"
+                "timestamp": "2024-06-19T06:34:23.401Z"
               },
               "circle": {
                 "gps": "19.178146,72.960168",
@@ -82,13 +82,14 @@
           },
           "time": {
             "label": "enable",
-            "timestamp": "2024-06-19T04:58:53.794Z"
+            "timestamp": "2024-06-19T06:34:23.401Z"
           },
           "categories": [
             {
-              "id": "112",
+              "parent_category_id": "",
+              "id": "105",
               "descriptor": {
-                "name": "Uthappam Varieties"
+                "name": "Hot Beverages"
               },
               "tags": [
                 {
@@ -133,9 +134,10 @@
               ]
             },
             {
-              "id": "114",
+              "parent_category_id": "",
+              "id": "106",
               "descriptor": {
-                "name": "Podi Varities"
+                "name": "Manis Special Snacks"
               },
               "tags": [
                 {
@@ -180,9 +182,10 @@
               ]
             },
             {
-              "id": "116",
+              "parent_category_id": "",
+              "id": "108",
               "descriptor": {
-                "name": "Cold Beverages"
+                "name": "Mani's Special Dosa"
               },
               "tags": [
                 {
@@ -227,9 +230,10 @@
               ]
             },
             {
-              "id": "117",
+              "parent_category_id": "",
+              "id": "109",
               "descriptor": {
-                "name": "Breakfast"
+                "name": "Manis Dosa Varieties"
               },
               "tags": [
                 {
@@ -274,9 +278,10 @@
               ]
             },
             {
-              "id": "119",
+              "parent_category_id": "",
+              "id": "111",
               "descriptor": {
-                "name": "Lunch"
+                "name": "Rava Dosa Varieties"
               },
               "tags": [
                 {
@@ -321,9 +326,10 @@
               ]
             },
             {
-              "id": "120",
+              "parent_category_id": "",
+              "id": "112",
               "descriptor": {
-                "name": "Snacks"
+                "name": "Uthappam Varieties"
               },
               "tags": [
                 {
@@ -368,9 +374,10 @@
               ]
             },
             {
-              "id": "105",
+              "parent_category_id": "",
+              "id": "114",
               "descriptor": {
-                "name": "Hot Beverages"
+                "name": "Podi Varities"
               },
               "tags": [
                 {
@@ -415,9 +422,10 @@
               ]
             },
             {
-              "id": "122",
+              "parent_category_id": "",
+              "id": "116",
               "descriptor": {
-                "name": "Cold Bev"
+                "name": "Cold Beverages"
               },
               "tags": [
                 {
@@ -462,9 +470,10 @@
               ]
             },
             {
-              "id": "106",
+              "parent_category_id": "",
+              "id": "117",
               "descriptor": {
-                "name": "Manis Special Snacks"
+                "name": "Breakfast"
               },
               "tags": [
                 {
@@ -509,9 +518,10 @@
               ]
             },
             {
-              "id": "108",
+              "parent_category_id": "",
+              "id": "118",
               "descriptor": {
-                "name": "Mani's Special Dosa"
+                "name": "Meal"
               },
               "tags": [
                 {
@@ -556,9 +566,10 @@
               ]
             },
             {
-              "id": "109",
+              "parent_category_id": "",
+              "id": "119",
               "descriptor": {
-                "name": "Manis Dosa Varieties"
+                "name": "Lunch"
               },
               "tags": [
                 {
@@ -603,9 +614,10 @@
               ]
             },
             {
-              "id": "111",
+              "parent_category_id": "",
+              "id": "120",
               "descriptor": {
-                "name": "Rava Dosa Varieties"
+                "name": "Snacks"
               },
               "tags": [
                 {
@@ -644,6 +656,150 @@
                     {
                       "code": "rank",
                       "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parent_category_id": "",
+              "id": "121",
+              "descriptor": {
+                "name": "Hot Bev"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "custom_menu"
+                    }
+                  ]
+                },
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "7"
+                    },
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2300"
+                    }
+                  ]
+                },
+                {
+                  "code": "display",
+                  "list": [
+                    {
+                      "code": "rank",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parent_category_id": "",
+              "id": "122",
+              "descriptor": {
+                "name": "Cold Bev"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "custom_menu"
+                    }
+                  ]
+                },
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "7"
+                    },
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2300"
+                    }
+                  ]
+                },
+                {
+                  "code": "display",
+                  "list": [
+                    {
+                      "code": "rank",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parent_category_id": "",
+              "id": "123",
+              "descriptor": {
+                "name": "Ice Cream"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "custom_menu"
+                    }
+                  ]
+                },
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "7"
+                    },
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2300"
+                    }
+                  ]
+                },
+                {
+                  "code": "display",
+                  "list": [
+                    {
+                      "code": "rank",
+                      "value": "15"
                     }
                   ]
                 }
@@ -729,7 +885,7 @@
           "ttl": "PT10M",
           "items": [
             {
-              "@ondc/org/cancellable": true,
+              "@ondc/org/cancellable": false,
               "@ondc/org/returnable": false,
               "quantity": {
                 "available": {
@@ -750,9 +906,9 @@
                 "images": [
                   "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
                 ],
-                "name": "Onion Rava Schezwan Sada Dosa",
-                "short_desc": "Onion Rava Schezwan Sada Dosa",
-                "long_desc": "Onion Rava Schezwan Sada Dosa"
+                "name": "Dilkush Dosa",
+                "short_desc": "Dilkush Dosa",
+                "long_desc": "Dilkush Dosa"
               },
               "location_id": "L1",
               "fulfillment_id": "F1",
@@ -786,6 +942,24 @@
                       "value": "yes"
                     }
                   ]
+                },
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "custom_group",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "10"
+                    }
+                  ]
                 }
               ],
               "@ondc/org/available_on_cod": false,
@@ -793,16 +967,44 @@
               "category_id": "Dosa",
               "price": {
                 "currency": "INR",
-                "maximum_value": "49",
-                "value": "49"
+                "maximum_value": "48",
+                "value": "48",
+                "tags": [
+                  {
+                    "code": "default_selection",
+                    "list": [
+                      {
+                        "code": "value",
+                        "value": "48.0"
+                      },
+                      {
+                        "code": "maximum_value",
+                        "value": "68.0"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "range",
+                    "list": [
+                      {
+                        "code": "lower",
+                        "value": "48.0"
+                      },
+                      {
+                        "code": "upper",
+                        "value": "78.0"
+                      }
+                    ]
+                  }
+                ]
               },
-              "id": "13385^1^3045",
+              "id": "13385^1^2985",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.819Z"
+                "timestamp": "2024-06-19T06:34:23.407Z"
               },
               "category_ids": [
-                "111:6"
+                "108:7"
               ]
             },
             {
@@ -922,7 +1124,7 @@
               "id": "13385^1^2971",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.820Z"
+                "timestamp": "2024-06-19T06:34:23.407Z"
               },
               "category_ids": [
                 "109:4"
@@ -999,7 +1201,7 @@
               "id": "13385^1^3076",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.821Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "112:9"
@@ -1076,7 +1278,7 @@
               "id": "13385^1^2958",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.822Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "119:3"
@@ -1153,7 +1355,7 @@
               "id": "13385^1^3105",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.822Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "117:1"
@@ -1230,7 +1432,7 @@
               "id": "13385^1^3129",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.822Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "122:6"
@@ -1353,7 +1555,7 @@
               "id": "13385^1^2871",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.823Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "122:6"
@@ -1430,14 +1632,14 @@
               "id": "13385^1^3049",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.824Z"
+                "timestamp": "2024-06-19T06:34:23.408Z"
               },
               "category_ids": [
                 "111:6"
               ]
             },
             {
-              "@ondc/org/cancellable": false,
+              "@ondc/org/cancellable": true,
               "@ondc/org/returnable": false,
               "quantity": {
                 "available": {
@@ -1458,9 +1660,9 @@
                 "images": [
                   "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
                 ],
-                "name": "Dilkush Dosa",
-                "short_desc": "Dilkush Dosa",
-                "long_desc": "Dilkush Dosa"
+                "name": "Onion Rava Schezwan Sada Dosa",
+                "short_desc": "Onion Rava Schezwan Sada Dosa",
+                "long_desc": "Onion Rava Schezwan Sada Dosa"
               },
               "location_id": "L1",
               "fulfillment_id": "F1",
@@ -1494,24 +1696,6 @@
                       "value": "yes"
                     }
                   ]
-                },
-                {
-                  "code": "type",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "item"
-                    }
-                  ]
-                },
-                {
-                  "code": "custom_group",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "10"
-                    }
-                  ]
                 }
               ],
               "@ondc/org/available_on_cod": false,
@@ -1519,44 +1703,16 @@
               "category_id": "Dosa",
               "price": {
                 "currency": "INR",
-                "maximum_value": "48",
-                "value": "48",
-                "tags": [
-                  {
-                    "code": "default_selection",
-                    "list": [
-                      {
-                        "code": "value",
-                        "value": "48.0"
-                      },
-                      {
-                        "code": "maximum_value",
-                        "value": "68.0"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "range",
-                    "list": [
-                      {
-                        "code": "lower",
-                        "value": "48.0"
-                      },
-                      {
-                        "code": "upper",
-                        "value": "78.0"
-                      }
-                    ]
-                  }
-                ]
+                "maximum_value": "49",
+                "value": "49"
               },
-              "id": "13385^1^2985",
+              "id": "13385^1^3045",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.824Z"
+                "timestamp": "2024-06-19T06:34:23.409Z"
               },
               "category_ids": [
-                "108:7"
+                "111:6"
               ]
             },
             {
@@ -1630,7 +1786,7 @@
               "id": "13385^1^3034",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.825Z"
+                "timestamp": "2024-06-19T06:34:23.409Z"
               },
               "category_ids": [
                 "114:10"
@@ -1707,7 +1863,7 @@
               "id": "13385^1^2955",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.825Z"
+                "timestamp": "2024-06-19T06:34:23.409Z"
               },
               "category_ids": [
                 "119:3"
@@ -1784,10 +1940,241 @@
               "id": "13385^1^2918",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.826Z"
+                "timestamp": "2024-06-19T06:34:23.409Z"
               },
               "category_ids": [
                 "116:11"
+              ]
+            },
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "name": "Plant veg meal",
+                "short_desc": "Plant veg meal",
+                "long_desc": "Plant veg meal"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2330"
+                    },
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/available_on_cod": false,
+              "related": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "156",
+                "value": "156"
+              },
+              "id": "13385^1^3136",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-06-19T06:34:23.409Z"
+              },
+              "category_ids": [
+                "118:2"
+              ]
+            },
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "name": "Tea",
+                "short_desc": "Tea",
+                "long_desc": "Tea"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2330"
+                    },
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/available_on_cod": false,
+              "related": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "15",
+                "value": "15"
+              },
+              "id": "13385^1^3118",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-06-19T06:34:23.409Z"
+              },
+              "category_ids": [
+                "121:5"
+              ]
+            },
+            {
+              "@ondc/org/cancellable": false,
+              "@ondc/org/returnable": false,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "name": "vanilla ice cream",
+                "short_desc": "vanilla ice cream",
+                "long_desc": "vanilla ice cream"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "time_from",
+                      "value": "0900"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2330"
+                    },
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/available_on_cod": false,
+              "related": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "80",
+                "value": "80"
+              },
+              "id": "13385^1^3146",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-06-19T06:34:23.410Z"
+              },
+              "category_ids": [
+                "123:8"
               ]
             },
             {
@@ -1927,7 +2314,7 @@
               "id": "13385^1^2872",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.826Z"
+                "timestamp": "2024-06-19T06:34:23.410Z"
               },
               "category_ids": [
                 "109:4"
@@ -2004,7 +2391,7 @@
               "id": "13385^1^2940",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.827Z"
+                "timestamp": "2024-06-19T06:34:23.410Z"
               },
               "category_ids": [
                 "105:1"
@@ -2081,7 +2468,7 @@
               "id": "13385^1^2945",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.828Z"
+                "timestamp": "2024-06-19T06:34:23.410Z"
               },
               "category_ids": [
                 "105:1"
@@ -2158,7 +2545,7 @@
               "id": "13385^1^2914",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.828Z"
+                "timestamp": "2024-06-19T06:34:23.410Z"
               },
               "category_ids": [
                 "116:11"
@@ -2235,7 +2622,7 @@
               "id": "13385^1^3059",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.828Z"
+                "timestamp": "2024-06-19T06:34:23.411Z"
               },
               "category_ids": [
                 "120:4"
@@ -2312,7 +2699,7 @@
               "id": "13385^1^2882",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.829Z"
+                "timestamp": "2024-06-19T06:34:23.411Z"
               },
               "category_ids": [
                 "120:4"
@@ -2389,7 +2776,7 @@
               "id": "13385^1^3019",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.829Z"
+                "timestamp": "2024-06-19T06:34:23.411Z"
               },
               "category_ids": [
                 "106:3"
@@ -2466,7 +2853,7 @@
               "id": "13385^1^2916",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-06-19T04:58:53.829Z"
+                "timestamp": "2024-06-19T06:34:23.411Z"
               },
               "category_ids": [
                 "116:11"
