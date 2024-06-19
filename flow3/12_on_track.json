@@ -12,15 +12,15 @@
         "domain": "ONDC:RET11",
         "action": "on_track",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "timestamp": "2024-06-11T10:29:26.995Z"
+        "timestamp": "2024-06-19T06:34:25.995Z"
     },
     "message": {
         "tracking": {
             "location": {
-                "updated_at": "2024-06-11T15:59:26.995Z",
+                "updated_at": "2024-06-19T06:34:25.995Z",
                 "gps": "19.177669,72.960912",
                 "time": {
-                    "timestamp": "2024-06-11T10:29:26.534Z"
+                    "timestamp": "2024-06-19T06:34:25.534Z"
                 }
             },
             "id": "F1",
