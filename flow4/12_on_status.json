@@ -10,7 +10,7 @@
         "message_id": "d5f9cb85-12bb-4c3d-962f-27566278bcdf",
         "core_version": "1.2.0",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "timestamp": "2024-06-11T10:44:22.687Z",
+        "timestamp": "2024-06-19T06:34:24.687Z",
         "bap_id": "buyer-app-preprod-v2.ondc.org"
     },
     "message": {
