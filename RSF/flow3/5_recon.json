@@ -1,0 +1,63 @@
+{
+    "context": {
+      "transaction_id": "1d5d2cf6-8dc1-4131-bc2e-58654e55b01a",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "message_id": "c5c5a5dd-db15-492d-aa12-3f419029f4fe",
+      "ttl": "PT30S",
+      "version": "2.0.0",
+      "bap_id": "poketpos.com",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "recon",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "timestamp": "2025-04-16T13:06:09.599Z"
+    },
+    "message": {
+      "orders": [
+        {
+          "settlements": [
+            {
+              "amount": {
+                "currency": "INR",
+                "value": "174"
+              },
+              "tds": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "updated_at": "2025-04-16T13:06:09.599Z",
+              "tcs": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "payment_id": "1234567890",
+              "settlement_ref_no": "0",
+              "withholding_amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "commission": {
+                "currency": "INR",
+                "value": "40"
+              },
+              "id": "eb8f8425-de4f-488f-a55d-853dad0cee6f",
+              "status": "PENDING"
+            }
+          ],
+          "amount": {
+            "currency": "INR",
+            "value": "174"
+          },
+          "id": "2025-03-09-891547"
+        }
+      ]
+    }
+  }

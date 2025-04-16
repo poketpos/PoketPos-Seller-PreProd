@@ -1,0 +1,75 @@
+{
+    "context": {
+      "transaction_id": "1d5d2cf6-8dc1-4131-bc2e-58654e55b01a",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "on_settle",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "message_id": "8ef84770-25e8-4d9e-aa44-0493b38d866f",
+      "version": "2.0.0",
+      "ttl": "P1D",
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "bap_id": "poketpos.com",
+      "timestamp": "2025-04-16T13:00:15.363Z"
+    },
+    "message": {
+      "receiver_app_id": "poketpos.com",
+      "collector_app_id": "preprod.orderbazaar.in",
+      "settlement": {
+        "orders": [
+          {
+            "provider": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "id": "13385^1",
+              "reference_no": "1238683618634",
+              "status": "SETTLED"
+            },
+            "inter_participant": {
+              "settled_amount": {
+                "currency": "INR",
+                "value": "174.26"
+              },
+              "amount": {
+                "currency": "INR",
+                "value": "174.26"
+              },
+              "reference_no": "1238683618634",
+              "status": "SETTLED"
+            },
+            "self": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "error": {
+                "code": "70024",
+                "message": "value mismatch"
+              },
+              "reference_no": "1238683618634",
+              "status": "NOT_SETTLED"
+            },
+            "id": "2025-03-09-891547",
+            "collector": {
+              "amount": {
+                "currency": "INR",
+                "value": "15.37"
+              }
+            }
+          }
+        ],
+        "id": "eb8f8425-de4f-488f-a55d-853dad0cee6f",
+        "type": "NP-NP"
+      }
+    }
+  }

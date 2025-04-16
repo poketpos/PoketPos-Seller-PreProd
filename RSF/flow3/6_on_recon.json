@@ -1,0 +1,70 @@
+{
+    "context": {
+      "transaction_id": "1d5d2cf6-8dc1-4131-bc2e-58654e55b01a",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "on_recon",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "message_id": "c5c5a5dd-db15-492d-aa12-3f419029f4fe",
+      "version": "2.0.0",
+      "ttl": "P1D",
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "bap_id": "poketpos.com",
+      "timestamp": "2025-04-16T13:07:38.861Z"
+    },
+    "message": {
+      "orders": [
+        {
+          "settlements": [
+            {
+              "amount": {
+                "diff_value": "100.00",
+                "currency": "INR",
+                "value": "174.00"
+              },
+              "tds": {
+                "diff_value": "100.00",
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "updated_at": "2025-04-16T13:06:09.599Z",
+              "tcs": {
+                "diff_value": "100.00",
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "payment_id": "1234567890",
+              "settlement_ref_no": "0",
+              "due_date": "2025-04-18",
+              "withholding_amount": {
+                "diff_value": "100.00",
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "commission": {
+                "diff_value": "100.00",
+                "currency": "INR",
+                "value": "40.00"
+              },
+              "id": "eb8f8425-de4f-488f-a55d-853dad0cee6f",
+              "status": "PENDING"
+            }
+          ],
+          "amount": {
+            "currency": "INR",
+            "value": "174.00"
+          },
+          "recon_accord": false,
+          "id": "2025-03-09-891547"
+        }
+      ]
+    }
+  }

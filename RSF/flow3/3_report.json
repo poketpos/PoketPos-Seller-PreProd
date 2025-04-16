@@ -1,0 +1,27 @@
+{
+    "context": {
+      "transaction_id": "1d5d2cf6-8dc1-4131-bc2e-58654e55b01a",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "message_id": "9c4c275e-2ec0-4e23-9422-513947a6651d",
+      "version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_id": "poketpos.com",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "report",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "timestamp": "2025-04-16T13:00:53.350Z"
+    },
+    "message": {
+      "ref_transaction_id": "1d5d2cf6-8dc1-4131-bc2e-58654e55b01a",
+      "ref_message_id": "8ef84770-25e8-4d9e-aa44-0493b38d866f"
+    }
+  }
