@@ -1,0 +1,71 @@
+{
+    "context": {
+      "transaction_id": "796b7a0d-70cc-40e3-a35e-1433019d6141",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "on_settle",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "message_id": "5126cce8-3ac2-4d33-8406-f5b9b2226400",
+      "version": "2.0.0",
+      "ttl": "P1D",
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "bap_id": "poketpos.com",
+      "timestamp": "2025-04-28T07:20:06.405Z"
+    },
+    "message": {
+      "receiver_app_id": "poketpos.com",
+      "collector_app_id": "preprod.orderbazaar.in",
+      "settlement": {
+        "orders": [
+          {
+            "provider": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "id": "13385^1",
+              "reference_no": "1238683618634",
+              "status": "SETTLED"
+            },
+            "inter_participant": {
+              "reference_no": "1238683618634",
+              "status": "SETTLED",
+              "settled_amount": {
+                "currency": "INR",
+                "value": "174.26"
+              },
+              "amount": {
+                "currency": "INR",
+                "value": "174.26"
+              }
+            },
+            "self": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "reference_no": "1238683618634",
+              "status": "SETTLED"
+            },
+            "collector": {
+              "amount": {
+                "currency": "INR",
+                "value": "15.37"
+              }
+            },
+            "id": "2025-03-09-891547"
+          }
+        ],
+        "id": "ea2fd41c-b535-4422-9676-381d50191d85",
+        "type": "NP-NP"
+      }
+    }
+  }

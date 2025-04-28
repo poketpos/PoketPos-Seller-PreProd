@@ -1,0 +1,66 @@
+{
+    "context": {
+      "transaction_id": "796b7a0d-70cc-40e3-a35e-1433019d6141",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "message_id": "283a1e3b-4cfd-439e-8725-b14ad8da4f94",
+      "version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_id": "poketpos.com",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "settle",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "timestamp": "2025-04-28T07:02:11.887Z"
+    },
+    "message": {
+      "receiver_app_id": "poketpos.com",
+      "collector_app_id": "preprod.orderbazaar.in",
+      "settlement": {
+        "orders": [
+          {
+            "provider": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "bank_details": {
+                "ifsc_code": "IFSC0001",
+                "account_no": "1234567890"
+              },
+              "name": "PoketPos",
+              "id": "13385^1"
+            },
+            "inter_participant": {
+              "amount": {
+                "currency": "INR",
+                "value": "174.26"
+              }
+            },
+            "self": {
+              "amount": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            "id": "2025-03-09-891547",
+            "collector": {
+              "amount": {
+                "currency": "INR",
+                "value": "15.37"
+              }
+            }
+          }
+        ],
+        "id": "ea2fd41c-b535-4422-9676-381d50191d85",
+        "type": "NP-NP"
+      }
+    }
+  }
