@@ -1,0 +1,30 @@
+{
+    "context": {
+      "transaction_id": "6a7e94d3-2d8d-4c16-877d-329f8968474b",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "message_id": "e3f5d2ce-d3a7-4cf9-bcad-f093a3962bb4",
+      "version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_id": "poketpos.com",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "settle",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "timestamp": "2025-04-28T08:28:29.795Z"
+    },
+    "message": {
+      "receiver_app_id": "poketpos.com",
+      "collector_app_id": "Khamang.chah.buyer.com",
+      "settlement": {
+        "type": "NIL"
+      }
+    }
+  }
