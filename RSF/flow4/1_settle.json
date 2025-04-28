@@ -1,0 +1,42 @@
+{
+    "context": {
+      "transaction_id": "c7f4a3cb-5b22-4c99-bd60-3791d4f61e88",
+      "bpp_id": "rsf-mock-service.ondc.org",
+      "message_id": "ac8d072c-9368-4e9c-a109-9dfcd954dcb6",
+      "version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_id": "poketpos.com",
+      "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+      "domain": "ONDC:NTS10",
+      "action": "settle",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "*"
+        }
+      },
+      "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "timestamp": "2025-04-28T07:59:06.367Z"
+    },
+    "message": {
+      "receiver_app_id": "poketpos.com",
+      "collector_app_id": "Fynd.Buyer.com",
+      "settlement": {
+        "orders": [
+          {
+            "self": {
+              "amount": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            "id": "17-04-2025-1"
+          }
+        ],
+        "id": "587fa79a-d6a4-4e15-ac27-972502e514c2",
+        "type": "MISC"
+      }
+    }
+  }
