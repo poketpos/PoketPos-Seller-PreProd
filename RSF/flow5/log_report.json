@@ -1,0 +1,73 @@
+{
+    "success": true,
+    "response": {
+        "message": "Logs were verified successfully",
+        "report": {},
+        "bpp_id": "poketpos.com",
+        "bap_id": "rsf-mock-service.ondc.org",
+        "domain": "ONDC:NTS10",
+        "payload": {
+            "settle": {
+                "context": {
+                    "transaction_id": "6a7e94d3-2d8d-4c16-877d-329f8968474b",
+                    "bpp_id": "rsf-mock-service.ondc.org",
+                    "message_id": "e3f5d2ce-d3a7-4cf9-bcad-f093a3962bb4",
+                    "version": "2.0.0",
+                    "ttl": "PT30S",
+                    "bap_id": "poketpos.com",
+                    "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+                    "domain": "ONDC:NTS10",
+                    "action": "settle",
+                    "location": {
+                        "country": {
+                            "code": "IND"
+                        },
+                        "city": {
+                            "code": "*"
+                        }
+                    },
+                    "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+                    "timestamp": "2025-04-28T08:28:29.795Z"
+                },
+                "message": {
+                    "receiver_app_id": "poketpos.com",
+                    "collector_app_id": "Khamang.chah.buyer.com",
+                    "settlement": {
+                        "type": "NIL"
+                    }
+                }
+            },
+            "on_settle": {
+                "context": {
+                    "transaction_id": "6a7e94d3-2d8d-4c16-877d-329f8968474b",
+                    "bpp_id": "rsf-mock-service.ondc.org",
+                    "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server_preprod/ondc",
+                    "domain": "ONDC:NTS10",
+                    "action": "on_settle",
+                    "location": {
+                        "country": {
+                            "code": "IND"
+                        },
+                        "city": {
+                            "code": "*"
+                        }
+                    },
+                    "message_id": "e3f5d2ce-d3a7-4cf9-bcad-f093a3962bb4",
+                    "version": "2.0.0",
+                    "ttl": "P1D",
+                    "bap_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+                    "bap_id": "poketpos.com",
+                    "timestamp": "2025-04-28T08:28:41.769Z"
+                },
+                "message": {
+                    "settlement": {
+                        "type": "NIL"
+                    }
+                }
+            }
+        },
+        "reportTimestamp": "2025-04-28T09:55:38.649Z"
+    },
+    "signature": "oBZ1nlP4A5ChnLcYBRpuX0avro6qM9wlaI5Rw4E19DnKu7z8zF3Q11IWZCzLMbY1EJIE6ppIu+iN4QqxF43JCw==",
+    "signTimestamp": "2025-04-28T09:55:38.649Z"
+}

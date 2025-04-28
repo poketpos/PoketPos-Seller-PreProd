@@ -21,8 +21,6 @@
       "timestamp": "2025-04-28T07:59:06.367Z"
     },
     "message": {
-      "receiver_app_id": "poketpos.com",
-      "collector_app_id": "Fynd.Buyer.com",
       "settlement": {
         "orders": [
           {
