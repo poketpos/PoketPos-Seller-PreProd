@@ -1,0 +1,419 @@
+{
+    "context": {
+      "transaction_id": "84bfc2ff-3308-43e9-94f7-d8b56a431c9C",
+      "bpp_id": "poketpos.com",
+      "bpp_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "domain": "ONDC:RET11",
+      "action": "issue",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "std:022"
+        }
+      },
+      "message_id": "22c11ff4-b6c1-4750-b990-9ad67a132ff9",
+      "core_version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_uri": "https://igm-mock-service.ondc.org/igm-protocol-server-preprod/ondc",
+      "bap_id": "igm-mock-service.ondc.org/igm-protocol-server-preprod",
+      "timestamp": "2025-04-28T12:32:55.469Z"
+    },
+    "message": {
+      "issue": {
+        "expected_response_time": {
+          "duration": "PT2H"
+        },
+        "level": "ISSUE",
+        "description": {
+          "images": [
+            {
+              "url": "http://buyerapp.com/addtional-details/img1.png",
+              "size_type": "xs"
+            }
+          ],
+          "code": "ORD001",
+          "additional_desc": {
+            "content_type": "text/plain",
+            "url": "https://buyerapp.com/additonal-details/desc.txt"
+          },
+          "short_desc": "Issue with product quality",
+          "long_desc": "Product quality is not correct. facing issues while using the product"
+        },
+        "created_at": "2025-04-26T11:07:59.963Z",
+        "resolutions": [
+          {
+            "proposed_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:15:24.271Z",
+            "id": "R_PARENT",
+            "descriptor": {
+              "code": "PARENT",
+              "short_desc": "PROVIDING RESOLUTION OPTIONS. PLEASE SELECT ONE"
+            }
+          },
+          {
+            "ref_id": "R_PARENT",
+            "proposed_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:15:24.271Z",
+            "id": "R1",
+            "descriptor": {
+              "code": "REFUND",
+              "short_desc": "Providing refund for the item"
+            },
+            "ref_type": "PARENT",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "RESOLUTION_DETAILS"
+                },
+                "id": "a7c8d82e-352c-47c5-a192-c5c2fe11357d",
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "ITEM"
+                    },
+                    "value": "I10"
+                  },
+                  {
+                    "descriptor": {
+                      "code": "REFUND_AMOUNT"
+                    },
+                    "value": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ref_id": "R_PARENT",
+            "proposed_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:15:24.271Z",
+            "id": "R2",
+            "descriptor": {
+              "code": "REPLACEMENT",
+              "short_desc": "Providing replacement of the item"
+            },
+            "ref_type": "PARENT",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "RESOLUTION_DETAILS"
+                },
+                "id": "87c52f68-b129-4307-99d4-a2ed3b0757fa",
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "ITEM"
+                    },
+                    "value": "I10"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "last_action_id": "A005",
+        "expected_resolution_time": {
+          "duration": "P1D"
+        },
+        "actors": [
+          {
+            "id": "CUST1",
+            "type": "CONSUMER",
+            "info": {
+              "org": {
+                "name": "igm-mock-service.ondc.org/igm-protocol-server-preprod::ONDC:RET11"
+              },
+              "person": {
+                "name": "Sam Manuel"
+              },
+              "contact": {
+                "phone": "9879879870",
+                "email": "sam@yahoo.com"
+              }
+            }
+          },
+          {
+            "id": "NP1",
+            "type": "INTERFACING_NP",
+            "info": {
+              "org": {
+                "name": "igm-mock-service.ondc.org/igm-protocol-server-preprod::ONDC:RET11"
+              },
+              "person": {
+                "name": "John Doe"
+              },
+              "contact": {
+                "phone": "9450394039",
+                "email": "buyerapp@interface.com"
+              }
+            }
+          },
+          {
+            "id": "PoketPosSellerNP",
+            "type": "COUNTERPARTY_NP",
+            "info": {
+              "org": {
+                "name": "poketpos.com::ONDC:RET11"
+              },
+              "person": {
+                "name": "Mandar Sir"
+              },
+              "contact": {
+                "phone": "9878457812",
+                "email": "ondc@poketpos.com"
+              }
+            }
+          }
+        ],
+        "updated_at": "2025-04-28T12:32:55.469Z",
+        "refs": [
+          {
+            "ref_id": "661dc9a8-7c37-4095-acc1-1671c533f03f",
+            "ref_type": "ORDER"
+          },
+          {
+            "ref_id": "13385^1^2914",
+            "ref_type": "ITEM",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "message.order.items"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "quantity.selected.count"
+                    },
+                    "value": "2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ref_id": "13385^1",
+            "ref_type": "PROVIDER"
+          },
+          {
+            "ref_id": "F1",
+            "ref_type": "FULFILMENT"
+          },
+          {
+            "ref_id": "3a3be7f9-d23f-4df8-ab8b-74f56bf2a611",
+            "ref_type": "TRANSACTION"
+          }
+        ],
+        "id": "I0001",
+        "source_id": "CUST1",
+        "actions": [
+          {
+            "action_by": "NP1",
+            "updated_at": "2025-04-28T11:11:25.251Z",
+            "description": {
+              "code": "OPEN",
+              "short_desc": "OPEN"
+            },
+            "id": "A001",
+            "actor_details": {
+              "name": "Vishal Kadge"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T11:11:25.753Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Complaint created"
+            },
+            "id": "LA_d0217139-3070-4f48-a1d4-bc25fb01534b",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T11:18:10.984Z",
+            "description": {
+              "code": "INFO_REQUESTED",
+              "name": "INFO001",
+              "short_desc": "Please provide product images"
+            },
+            "id": "1d0156d5-3c89-4368-b4e2-d5d0ea1a4b4b",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T11:19:05.310Z",
+            "description": {
+              "code": "INFO_REQUESTED",
+              "name": "INFO002",
+              "short_desc": "Please provide invoice"
+            },
+            "id": "661dc9a8-7c37-4095-acc1-1671c533f03f",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "NP1",
+            "updated_at": "2025-04-28T11:23:26.014Z",
+            "description": {
+              "images": [
+                {
+                  "url": "http://buyerapp.com/addtional-details/img1.png"
+                }
+              ],
+              "code": "INFO_PROVIDED",
+              "short_desc": "Info provided from buyer app"
+            },
+            "id": "A002",
+            "actor_details": {
+              "name": "Vishal Kadge"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T11:23:26.205Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Seller app processing the info"
+            },
+            "id": "LA_19cb3098-0c8c-43c7-bdba-a117e28d812e",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "661dc9a8-7c37-4095-acc1-1671c533f03f",
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T11:59:54.208Z",
+            "description": {
+              "code": "INFO_REQUESTED",
+              "name": "INFO002",
+              "short_desc": "Please provide invoice"
+            },
+            "id": "fefdadf4-e241-4c08-a7cb-e3deaf8a50d4",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "661dc9a8-7c37-4095-acc1-1671c533f03f",
+            "action_by": "NP1",
+            "updated_at": "2025-04-28T12:05:14.421Z",
+            "description": {
+              "images": [
+                {
+                  "url": "https://buyerapp.com/resources/invoiceord1.pdf"
+                }
+              ],
+              "code": "INFO_PROVIDED",
+              "short_desc": "Provided invoice"
+            },
+            "id": "A003",
+            "actor_details": {
+              "name": "Vishal Kadge"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:05:14.658Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Seller app processing the info"
+            },
+            "id": "LA_2d9b67f1-a619-46c8-b625-47341be9b943",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "R_PARENT",
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:17:16.881Z",
+            "description": {
+              "code": "RESOLUTION_PROPOSED",
+              "short_desc": "RESOLUTION PROPOSED"
+            },
+            "id": "fb809cb6-b2d9-40ae-8933-d2d9eaa1981a",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "R2",
+            "action_by": "NP1",
+            "updated_at": "2025-04-28T12:22:15.068Z",
+            "description": {
+              "code": "RESOLUTION_ACCEPTED",
+              "short_desc": "RESOLUTION ACCEPTED"
+            },
+            "id": "A004",
+            "actor_details": {
+              "name": "Vishal Kadge"
+            },
+            "ref_type": "RESOLUTIONS"
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:22:15.255Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Seller app processing the info"
+            },
+            "id": "LA_9b27eb47-4cbe-4973-947f-550d2fa1c2c3",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "fb809cb6-b2d9-40ae-8933-d2d9eaa1981a",
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-28T12:30:04.239Z",
+            "description": {
+              "code": "RESOLVED",
+              "name": "REPLACEMENT",
+              "short_desc": "Providing replacement"
+            },
+            "id": "0616ffa4-f30c-4a30-9e55-4fc9cd658fc0",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "NP1",
+            "updated_at": "2025-04-28T12:32:55.469Z",
+            "description": {
+              "code": "CLOSED",
+              "short_desc": "Closing the complaint"
+            },
+            "id": "A005",
+            "actor_details": {
+              "name": "Vishal Kadge"
+            },
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "CLOSURE_DETAILS"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "RATING"
+                    },
+                    "value": "THUMBS_UP"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "status": "CLOSED",
+        "complainant_id": "NP1"
+      }
+    }
+  }
