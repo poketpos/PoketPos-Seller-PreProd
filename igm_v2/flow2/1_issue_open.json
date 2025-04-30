@@ -1,0 +1,157 @@
+{
+    "context": {
+      "transaction_id": "84bfc2ff-3308-43e9-94f7-d8b56a431c9D",
+      "bpp_id": "poketpos.com",
+      "bpp_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "domain": "ONDC:RET11",
+      "action": "issue",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "std:022"
+        }
+      },
+      "message_id": "d2fdfadf-b51a-493a-a689-dae952b02bf3",
+      "core_version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_uri": "https://igm-mock-service.ondc.org/igm-protocol-server-preprod/ondc",
+      "bap_id": "igm-mock-service.ondc.org/igm-protocol-server-preprod",
+      "timestamp": "2025-04-29T10:49:32.098Z"
+    },
+    "message": {
+      "issue": {
+        "expected_response_time": {
+          "duration": "PT2H"
+        },
+        "level": "ISSUE",
+        "description": {
+          "images": [
+            {
+              "url": "http://buyerapp.com/addtional-details/img1.png",
+              "size_type": "xl"
+            }
+          ],
+          "code": "ORD001",
+          "additional_desc": {
+            "content_type": "text/plain",
+            "url": "https://buyerapp.com/additonal-details/desc.txt"
+          },
+          "short_desc": "Issue with product quality",
+          "long_desc": "Product quality is not correct. facing issues while using the product"
+        },
+        "created_at": "2025-04-29T10:49:32.098Z",
+        "last_action_id": "A001",
+        "expected_resolution_time": {
+          "duration": "P1D"
+        },
+        "actors": [
+          {
+            "id": "PoketPosSellerNP",
+            "type": "INTERFACING_NP",
+            "info": {
+              "org": {
+                "name": "poketpos.com::ONDC:RET11"
+              },
+              "person": {
+                "name": "Mandar Sir"
+              },
+              "contact": {
+                "phone": "9878457812",
+                "email": "ondc@poketpos.com"
+              }
+            }
+          },
+          {
+            "id": "CUST1",
+            "type": "CONSUMER",
+            "info": {
+              "org": {
+                "name": "igm-mock-service.ondc.org/igm-protocol-server-preprod::ONDC:RET11"
+              },
+              "person": {
+                "name": "Sam Manuel"
+              },
+              "contact": {
+                "phone": "9879879870",
+                "email": "sam@yahoo.com"
+              }
+            }
+          },
+          {
+            "id": "NP1",
+            "type": "COUNTERPARTY_NP",
+            "info": {
+              "org": {
+                "name": "igm-mock-service.ondc.org/igm-protocol-server-preprod::ONDC:RET11"
+              },
+              "person": {
+                "name": "John Doe"
+              },
+              "contact": {
+                "phone": "9450394039",
+                "email": "buyerapp@interface.com"
+              }
+            }
+          }
+        ],
+        "updated_at": "2025-04-29T10:49:32.098Z",
+        "refs": [
+          {
+            "ref_id": "2025-03-17-777554",
+            "ref_type": "ORDER"
+          },
+          {
+            "ref_id": "13385^1^2914",
+            "ref_type": "ITEM",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "message.order.items"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "quantity.selected.count"
+                    },
+                    "value": "2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ref_id": "13385^1",
+            "ref_type": "PROVIDER"
+          },
+          {
+            "ref_id": "F1",
+            "ref_type": "FULFILMENT"
+          },
+          {
+            "ref_id": "3a3be7f9-d23f-4df8-ab8b-74f56bf2a611",
+            "ref_type": "TRANSACTION"
+          }
+        ],
+        "id": "I0002",
+        "source_id": "CUST1",
+        "actions": [
+          {
+            "action_by": "NP1",
+            "updated_at": "2025-04-29T10:49:32.098Z",
+            "description": {
+              "code": "OPEN",
+              "short_desc": "OPEN"
+            },
+            "id": "A001",
+            "actor_details": {
+              "name": "ajay rane"
+            }
+          }
+        ],
+        "status": "OPEN",
+        "complainant_id": "PoketPosSellerNP"
+      }
+    }
+  }

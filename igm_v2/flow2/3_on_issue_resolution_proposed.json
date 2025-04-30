@@ -1,0 +1,278 @@
+{
+    "context": {
+      "transaction_id": "84bfc2ff-3308-43e9-94f7-d8b56a431c9D",
+      "bpp_id": "poketpos.com",
+      "message_id": "8c44f871-e125-43ba-afd4-78799c4c5f6b",
+      "core_version": "2.0.0",
+      "ttl": "PT30S",
+      "bap_id": "igm-mock-service.ondc.org/igm-protocol-server-preprod",
+      "bpp_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+      "domain": "ONDC:RET11",
+      "action": "on_issue",
+      "location": {
+        "country": {
+          "code": "IND"
+        },
+        "city": {
+          "code": "std:022"
+        }
+      },
+      "bap_uri": "https://igm-mock-service.ondc.org/igm-protocol-server-preprod/ondc",
+      "timestamp": "2025-04-29T11:06:23.666Z"
+    },
+    "message": {
+      "updated_target": [
+        {
+          "path": "issue.actions",
+          "action": "APPENDED"
+        }
+      ],
+      "issue": {
+        "expected_response_time": {
+          "duration": "PT2H"
+        },
+        "level": "ISSUE",
+        "created_at": "2025-04-27T10:44:49.000Z",
+        "description": {
+          "images": [
+            {
+              "url": "http://buyerapp.com/addtional-details/img1.png",
+              "size_type": "xl"
+            }
+          ],
+          "code": "ORD001",
+          "additional_desc": {
+            "content_type": "text/plain",
+            "url": "https://buyerapp.com/additonal-details/desc.txt"
+          },
+          "short_desc": "Issue with product quality",
+          "long_desc": "Product quality is not correct. facing issues while using the product"
+        },
+        "resolutions": [
+          {
+            "proposed_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T11:06:23.665Z",
+            "id": "R1",
+            "descriptor": {
+              "code": "REFUND",
+              "short_desc": "Providing refund for the item"
+            },
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "RESOLUTION_DETAILS"
+                },
+                "id": "dda65962-b547-4d16-9d55-6dd4b149523e",
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "REFUND_AMOUNT"
+                    },
+                    "value": "200"
+                  },
+                  {
+                    "descriptor": {
+                      "code": "ITEM"
+                    },
+                    "value": "I10"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "last_action_id": "3c603248-f49b-4ee1-b3eb-e5a84839603e",
+        "respondent_ids": [
+          "PoketPosSellerNP"
+        ],
+        "expected_resolution_time": {
+          "duration": "PT24H"
+        },
+        "actors": [
+          {
+            "id": "CUST1",
+            "type": "CONSUMER",
+            "info": {
+              "org": {
+                "name": "buyerapp.com::ONDC:RET10"
+              },
+              "person": {
+                "name": "Sam Manuel"
+              },
+              "contact": {
+                "phone": "9879879870",
+                "email": "sam@yahoo.com"
+              }
+            }
+          },
+          {
+            "id": "NP1",
+            "type": "COUNTERPARTY_NP",
+            "info": {
+              "org": {
+                "name": "igm-mock-service.ondc.org/igm-protocol-server-preprod::ONDC:RET11"
+              },
+              "person": {
+                "name": "John Doe"
+              },
+              "contact": {
+                "phone": "9450394039",
+                "email": "buyerapp@interface.com"
+              }
+            }
+          },
+          {
+            "id": "PoketPosSellerNP",
+            "type": "INTERFACING_NP",
+            "info": {
+              "org": {
+                "name": "poketpos.com::ONDC:RET11"
+              },
+              "person": {
+                "name": "Mandar Sir"
+              },
+              "contact": {
+                "phone": "9878457812",
+                "email": "ondc@poketpos.com"
+              }
+            }
+          }
+        ],
+        "updated_at": "2025-04-29T11:06:23.666Z",
+        "refs": [
+          {
+            "ref_id": "2025-03-17-777554",
+            "ref_type": "ORDER"
+          },
+          {
+            "ref_id": "13385^1^2914",
+            "ref_type": "ITEM",
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "message.order.items"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "code": "quantity.selected.count"
+                    },
+                    "value": "2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ref_id": "13385^1",
+            "ref_type": "PROVIDER"
+          },
+          {
+            "ref_id": "F1",
+            "ref_type": "FULFILMENT"
+          },
+          {
+            "ref_id": "3a3be7f9-d23f-4df8-ab8b-74f56bf2a611",
+            "ref_type": "TRANSACTION"
+          }
+        ],
+        "id": "I0002",
+        "source_id": "CUST1",
+        "actions": [
+          {
+            "action_by": "NP1",
+            "updated_at": "2025-04-29T10:49:32.096Z",
+            "description": {
+              "code": "OPEN",
+              "short_desc": "OPEN"
+            },
+            "id": "A001",
+            "actor_details": {
+              "name": "ajay rane"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T10:49:32.509Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Complaint created"
+            },
+            "id": "LA_0e7357a9-bcbb-40a4-befe-7413003d68cc",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T10:52:36.591Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Please provide product images"
+            },
+            "id": "e614365a-24a4-42cf-9b0d-dda393cb9f5a",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T10:53:25.608Z",
+            "description": {
+              "code": "INFO_REQUESTED",
+              "short_desc": "Please provide invoice"
+            },
+            "id": "c61716ef-d98d-4e73-92bb-8a720c2b5f5c",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "e614365a-24a4-42cf-9b0d-dda393cb9f5a",
+            "action_by": "NP1",
+            "updated_at": "2025-04-29T11:02:06.610Z",
+            "description": {
+              "images": [
+                {
+                  "url": "http://buyerapp.com/addtional-details/img2.png"
+                }
+              ],
+              "code": "INFO_PROVIDED",
+              "short_desc": "Info provided from buyer app"
+            },
+            "id": "A002",
+            "actor_details": {
+              "name": "ajay rane"
+            }
+          },
+          {
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T11:02:06.820Z",
+            "description": {
+              "code": "PROCESSING",
+              "short_desc": "Seller app processing the info"
+            },
+            "id": "LA_1c826387-2f39-48fb-abab-9cc6a9768885",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          },
+          {
+            "ref_id": "R1",
+            "action_by": "PoketPosSellerNP",
+            "updated_at": "2025-04-29T11:06:23.666Z",
+            "description": {
+              "code": "RESOLUTION_PROPOSED",
+              "short_desc": "Resolution Proposed"
+            },
+            "id": "3c603248-f49b-4ee1-b3eb-e5a84839603e",
+            "actor_details": {
+              "name": "Mandar Sir"
+            }
+          }
+        ],
+        "status": "PROCESSING",
+        "complainant_id": "PoketPosSellerNP"
+      }
+    }
+  }
