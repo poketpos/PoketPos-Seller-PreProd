@@ -1,0 +1,762 @@
+{
+  "context": {
+    "transaction_id": "28883cf9-d98a-4922-942f-ec0bf525941e",
+    "bpp_id": "poketpos.com",
+    "country": "IND",
+    "city": "*",
+    "message_id": "e3b01dac-b9ed-496d-b20c-ced0faef55e4",
+    "core_version": "1.2.0",
+    "ttl": "PT30S",
+    "bap_id": "buyer-app-preprod-v2.ondc.org",
+    "bpp_uri": "https://poketpos.com/poketposondcpre/rest/ondccb",
+    "domain": "ONDC:RET11",
+    "action": "on_search",
+    "bap_uri": "https://buyer-app.ondc.org/protocol/v1",
+    "timestamp": "2025-06-02T13:15:18.358Z"
+  },
+  "message": {
+    "catalog": {
+      "bpp/providers": [
+        {
+          "offers": [
+            {
+              "location_ids": [
+                "L1"
+              ],
+              "fdids": "DISCP60",
+              "item_ids": [
+                "13385^1^3033",
+                "13385^1^2915",
+                "13385^1^3054",
+                "13385^1^3061",
+                "13385^1^2871",
+                "13385^1^3146",
+                "13385^1^3147",
+                "13385^1^3158"
+              ],
+              "descriptor": {
+                "images": [
+                  "https://img.freepik.com/free-vector/special-offer-creative-sale-banner-design_1017-16284.jpg?1"
+                ],
+                "code": "disc_pct"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-06-02T13:15:18.357Z",
+                  "end": "2025-06-02T18:15:18.357Z"
+                },
+                "label": "valid"
+              },
+              "tags": [
+                {
+                  "code": "qualifier",
+                  "list": [
+                    {
+                      "code": "min_value",
+                      "value": "159"
+                    }
+                  ]
+                },
+                {
+                  "code": "benefit",
+                  "list": [
+                    {
+                      "code": "value_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "value",
+                      "value": "-60.00"
+                    },
+                    {
+                      "code": "value_cap",
+                      "value": "-120.00"
+                    }
+                  ]
+                },
+                {
+                  "code": "meta",
+                  "list": [
+                    {
+                      "code": "additive",
+                      "value": "no"
+                    },
+                    {
+                      "code": "auto",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "location_ids": [
+                "L1"
+              ],
+              "fdids": "FLAT150",
+              "item_ids": [
+                "13385^1^3033",
+                "13385^1^2915",
+                "13385^1^3054",
+                "13385^1^3061",
+                "13385^1^2871",
+                "13385^1^3146",
+                "13385^1^3147",
+                "13385^1^3158"
+              ],
+              "descriptor": {
+                "images": [
+                  "https://sellerNP.com/images/offer2-banner.png"
+                ],
+                "code": "disc_amt"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-06-02T13:15:18.357Z",
+                  "end": "2025-06-02T18:15:18.357Z"
+                },
+                "label": "valid"
+              },
+              "tags": [
+                {
+                  "code": "qualifier",
+                  "list": [
+                    {
+                      "code": "min_value",
+                      "value": "499.00"
+                    }
+                  ]
+                },
+                {
+                  "code": "benefit",
+                  "list": [
+                    {
+                      "code": "value_type",
+                      "value": "amount"
+                    },
+                    {
+                      "code": "value",
+                      "value": "-150.00"
+                    }
+                  ]
+                },
+                {
+                  "code": "meta",
+                  "list": [
+                    {
+                      "code": "additive",
+                      "value": "no"
+                    },
+                    {
+                      "code": "auto",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "location_ids": [
+                "L1"
+              ],
+              "fdids": "BUY2GET3",
+              "item_ids": [
+                "13385^1^3033",
+                "13385^1^2915",
+                "13385^1^3054",
+                "13385^1^3061",
+                "13385^1^2871",
+                "13385^1^3146",
+                "13385^1^3147",
+                "13385^1^3158"
+              ],
+              "descriptor": {
+                "images": [
+                  "https://sellerNP.com/images/offer1-banner.png"
+                ],
+                "code": "buyXgetY"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-06-02T13:15:18.357Z",
+                  "end": "2025-06-02T18:15:18.357Z"
+                },
+                "label": "valid"
+              },
+              "tags": [
+                {
+                  "code": "qualifier",
+                  "list": [
+                    {
+                      "code": "item_count",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "code": "benefit",
+                  "list": [
+                    {
+                      "code": "item_id",
+                      "value": "I1"
+                    },
+                    {
+                      "code": "item_count",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "code": "meta",
+                  "list": [
+                    {
+                      "code": "additive",
+                      "value": "no"
+                    },
+                    {
+                      "code": "auto",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "location_ids": [
+                "L1"
+              ],
+              "fdids": "FREEBIE",
+              "item_ids": [
+                "13385^1^3033",
+                "13385^1^2915",
+                "13385^1^3054",
+                "13385^1^3061",
+                "13385^1^2871",
+                "13385^1^3146",
+                "13385^1^3147",
+                "13385^1^3158"
+              ],
+              "descriptor": {
+                "images": [
+                  "https://sellerNP.com/images/offer3-banner.png"
+                ],
+                "code": "freebie"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-06-02T13:15:18.357Z",
+                  "end": "2025-06-02T18:15:18.357Z"
+                },
+                "label": "valid"
+              },
+              "tags": [
+                {
+                  "code": "qualifier",
+                  "list": [
+                    {
+                      "code": "min_value",
+                      "value": "598.00"
+                    }
+                  ]
+                },
+                {
+                  "code": "benefit",
+                  "list": [
+                    {
+                      "code": "item_count",
+                      "value": "1"
+                    },
+                    {
+                      "code": "item_id",
+                      "value": "sku id for extra item"
+                    },
+                    {
+                      "code": "item_value",
+                      "value": "200.00"
+                    }
+                  ]
+                },
+                {
+                  "code": "meta",
+                  "list": [
+                    {
+                      "code": "additive",
+                      "value": "no"
+                    },
+                    {
+                      "code": "auto",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "13385^1",
+          "time": {
+            "label": "enable",
+            "timestamp": "2025-06-02T13:15:18.356Z"
+          },
+          "items": [
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "Masala Pav (2 Pcs)",
+                "short_desc": "Masala Pav (2 Pcs)",
+                "long_desc": "Masala Pav (2 Pcs)"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "21",
+                "value": "1"
+              },
+              "id": "13385^1^3033",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.356Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "Lassi",
+                "short_desc": "Lassi",
+                "long_desc": "Lassi"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "21",
+                "value": "1"
+              },
+              "id": "13385^1^2915",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=13385/4998541541237580417.Upma.jpg",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=13385/4998541541237580417.Upma.jpg"
+                ],
+                "code": "13X54",
+                "name": "Upma",
+                "short_desc": "Upma",
+                "long_desc": "Upma"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "22",
+                "value": "2"
+              },
+              "id": "13385^1^3054",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": true,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "Rasam idli",
+                "short_desc": "Rasam idli",
+                "long_desc": "Rasam idli"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "21",
+                "value": "1"
+              },
+              "id": "13385^1^3061",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": false,
+              "@ondc/org/returnable": true,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=13385/6063066459094832815.Lunch.jpg",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=13385/6063066459094832815.Lunch.jpg"
+                ],
+                "code": "13X54",
+                "name": "Lunch",
+                "short_desc": "Lunch",
+                "long_desc": "Lunch"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "65",
+                "value": "45"
+              },
+              "id": "13385^1^2871",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": false,
+              "@ondc/org/returnable": false,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "vanilla ice cream",
+                "short_desc": "vanilla ice cream",
+                "long_desc": "vanilla ice cream"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "43",
+                "value": "23"
+              },
+              "id": "13385^1^3146",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": false,
+              "@ondc/org/returnable": false,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "King Fisher Strong 650ml",
+                "short_desc": "King Fisher Strong 650ml",
+                "long_desc": "King Fisher Strong 650ml"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "195",
+                "value": "175"
+              },
+              "id": "13385^1^3147",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            },
+            {
+              "@ondc/org/cancellable": false,
+              "@ondc/org/returnable": false,
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "10"
+                },
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                }
+              },
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/contact_details_consumer_care": "Mandar Sir,ondc@poketpos.com,9878457812",
+              "@ondc/org/time_to_ship": "PT45M",
+              "descriptor": {
+                "symbol": "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null",
+                "images": [
+                  "https://mock.poketpos.com/poketpos/rest/upload/MENUITMIMAGE?fileName=null"
+                ],
+                "code": "13X54",
+                "name": "Satandard",
+                "short_desc": "Satandard",
+                "long_desc": "Satandard"
+              },
+              "location_id": "L1",
+              "fulfillment_id": "F1",
+              "tags": [
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ],
+              "@ondc/org/return_window": "PT15M",
+              "@ondc/org/available_on_cod": false,
+              "category_id": "F&B",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "110",
+                "value": "90"
+              },
+              "id": "13385^1^3158",
+              "time": {
+                "label": "enable",
+                "timestamp": "2025-06-02T13:15:18.357Z"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
